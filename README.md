@@ -35,4 +35,4 @@ go build cleanansiblebackups.go
 ```
   
 # Issues and/or Development
-I access Pull requests and I will also respond to Issues created in this Github project.
+I accept Pull requests and I will also respond to Issues created in this Github project.
