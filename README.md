@@ -24,3 +24,9 @@ The utility takes 3 parameters:
    shell: |
      cleanansiblebackups -name /etc/snmp/snmpd.conf -mincount 5 -age 31
 ```
+
+# Build
+Assuming Go is installed (v1.16+):
+```
+
+```
