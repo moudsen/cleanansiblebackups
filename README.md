@@ -28,5 +28,11 @@ The utility takes 3 parameters:
 # Build
 Assuming Go is installed (v1.16+):
 ```
-
+git clone https://github.com/moudsen/cleanansiblebackups
+cd cleanansiblebackups
+go get github.com/itroot/keysort
+go build cleanansiblebackups.go
 ```
+  
+# Issues and/or Development
+I access Pull requests and I will also respond to Issues created in this Github project.
