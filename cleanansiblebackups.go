@@ -5,10 +5,18 @@ package main
 //
 // CLEANANSIBLEBACKUPS
 // ===================
-// Zabbix.
+// Small utlility written in Go to cleanup Ansible backup files created over time when using
+// "backup: yes" when copying files.
 //
 // -----------------------------------------------------------------------------------------------------
 // v1.0  MJO 2022/01/25 Initial release
+//
+// IDEAS
+// =====
+// - To move the backup files to a different directory (test existance and accessibility)
+// 
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 import (
         "flag"
@@ -21,7 +29,7 @@ import (
 )
 
 const (
-        myVersion = "v1.0(4)"
+        myVersion = "v1.0(5)"
 )
 
 type fileWithAge struct {
